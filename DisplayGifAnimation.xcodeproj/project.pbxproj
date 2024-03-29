@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		B49DD5DD2BB6782600DF25DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DD5DC2BB6782600DF25DB /* AppDelegate.swift */; };
 		B49DD5DF2BB6782600DF25DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DD5DE2BB6782600DF25DB /* SceneDelegate.swift */; };
-		B49DD5E12BB6782600DF25DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DD5E02BB6782600DF25DB /* ViewController.swift */; };
+		B49DD5E12BB6782600DF25DB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DD5E02BB6782600DF25DB /* RootViewController.swift */; };
 		B49DD5E42BB6782600DF25DB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B49DD5E32BB6782600DF25DB /* Base */; };
 		B49DD5E62BB6782700DF25DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49DD5E52BB6782700DF25DB /* Assets.xcassets */; };
 		B49DD5E92BB6782700DF25DB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B49DD5E82BB6782700DF25DB /* Base */; };
+		B49DD5F12BB6796E00DF25DB /* ClassicGifViwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DD5F02BB6796E00DF25DB /* ClassicGifViwController.swift */; };
+		B49DD5F32BB67F4B00DF25DB /* NewGifViwControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DD5F22BB67F4B00DF25DB /* NewGifViwControllerViewController.swift */; };
+		B49DD5F52BB6845F00DF25DB /* UIImageView + Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DD5F42BB6845F00DF25DB /* UIImageView + Gif.swift */; };
+		B49DD5FB2BB6855500DF25DB /* lock_2_ok.gif in Resources */ = {isa = PBXBuildFile; fileRef = B49DD5FA2BB6855500DF25DB /* lock_2_ok.gif */; };
+		B49DD5FF2BB687B300DF25DB /* Gifu in Frameworks */ = {isa = PBXBuildFile; productRef = B49DD5FE2BB687B300DF25DB /* Gifu */; };
+		B49DD6022BB69F7300DF25DB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B49DD6012BB69F7300DF25DB /* Lottie */; };
+		B49DD6042BB6A03F00DF25DB /* LottieViwControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DD6032BB6A03F00DF25DB /* LottieViwControllerViewController.swift */; };
+		B49DD60B2BB6A70700DF25DB /* lock-2-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = B49DD60A2BB6A70700DF25DB /* lock-2-lottie.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B49DD5D92BB6782600DF25DB /* DisplayGifAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayGifAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49DD5DC2BB6782600DF25DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B49DD5DE2BB6782600DF25DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B49DD5E02BB6782600DF25DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B49DD5E02BB6782600DF25DB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		B49DD5E32BB6782600DF25DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B49DD5E52BB6782700DF25DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B49DD5E82BB6782700DF25DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B49DD5EA2BB6782700DF25DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49DD5F02BB6796E00DF25DB /* ClassicGifViwController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicGifViwController.swift; sourceTree = "<group>"; };
+		B49DD5F22BB67F4B00DF25DB /* NewGifViwControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGifViwControllerViewController.swift; sourceTree = "<group>"; };
+		B49DD5F42BB6845F00DF25DB /* UIImageView + Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Gif.swift"; sourceTree = "<group>"; };
+		B49DD5FA2BB6855500DF25DB /* lock_2_ok.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lock_2_ok.gif; sourceTree = "<group>"; };
+		B49DD6032BB6A03F00DF25DB /* LottieViwControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViwControllerViewController.swift; sourceTree = "<group>"; };
+		B49DD60A2BB6A70700DF25DB /* lock-2-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lock-2-lottie.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49DD5FF2BB687B300DF25DB /* Gifu in Frameworks */,
+				B49DD6022BB69F7300DF25DB /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,7 @@
 			children = (
 				B49DD5DB2BB6782600DF25DB /* DisplayGifAnimation */,
 				B49DD5DA2BB6782600DF25DB /* Products */,
+				B49DD5FD2BB687B300DF25DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +75,66 @@
 			children = (
 				B49DD5DC2BB6782600DF25DB /* AppDelegate.swift */,
 				B49DD5DE2BB6782600DF25DB /* SceneDelegate.swift */,
-				B49DD5E02BB6782600DF25DB /* ViewController.swift */,
-				B49DD5E22BB6782600DF25DB /* Main.storyboard */,
+				B49DD5F62BB684FD00DF25DB /* Views */,
+				B49DD5F72BB6850900DF25DB /* Extensions */,
+				B49DD5F82BB6851700DF25DB /* Resources */,
 				B49DD5E52BB6782700DF25DB /* Assets.xcassets */,
 				B49DD5E72BB6782700DF25DB /* LaunchScreen.storyboard */,
 				B49DD5EA2BB6782700DF25DB /* Info.plist */,
 			);
 			path = DisplayGifAnimation;
+			sourceTree = "<group>";
+		};
+		B49DD5F62BB684FD00DF25DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B49DD5E02BB6782600DF25DB /* RootViewController.swift */,
+				B49DD5F02BB6796E00DF25DB /* ClassicGifViwController.swift */,
+				B49DD5F22BB67F4B00DF25DB /* NewGifViwControllerViewController.swift */,
+				B49DD6032BB6A03F00DF25DB /* LottieViwControllerViewController.swift */,
+				B49DD5E22BB6782600DF25DB /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B49DD5F72BB6850900DF25DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B49DD5F42BB6845F00DF25DB /* UIImageView + Gif.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B49DD5F82BB6851700DF25DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B49DD5F92BB6853800DF25DB /* GifImages */,
+				B49DD6052BB6A05D00DF25DB /* LottieImages */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B49DD5F92BB6853800DF25DB /* GifImages */ = {
+			isa = PBXGroup;
+			children = (
+				B49DD5FA2BB6855500DF25DB /* lock_2_ok.gif */,
+			);
+			path = GifImages;
+			sourceTree = "<group>";
+		};
+		B49DD5FD2BB687B300DF25DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B49DD6052BB6A05D00DF25DB /* LottieImages */ = {
+			isa = PBXGroup;
+			children = (
+				B49DD60A2BB6A70700DF25DB /* lock-2-lottie.json */,
+			);
+			path = LottieImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +153,10 @@
 			dependencies = (
 			);
 			name = DisplayGifAnimation;
+			packageProductDependencies = (
+				B49DD5FE2BB687B300DF25DB /* Gifu */,
+				B49DD6012BB69F7300DF25DB /* Lottie */,
+			);
 			productName = DisplayGifAnimation;
 			productReference = B49DD5D92BB6782600DF25DB /* DisplayGifAnimation.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,10 @@
 				Base,
 			);
 			mainGroup = B49DD5D02BB6782600DF25DB;
+			packageReferences = (
+				B49DD5FC2BB686CF00DF25DB /* XCRemoteSwiftPackageReference "Gifu" */,
+				B49DD6002BB69F7300DF25DB /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B49DD5DA2BB6782600DF25DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49DD60B2BB6A70700DF25DB /* lock-2-lottie.json in Resources */,
+				B49DD5FB2BB6855500DF25DB /* lock_2_ok.gif in Resources */,
 				B49DD5E62BB6782700DF25DB /* Assets.xcassets in Resources */,
 				B49DD5E92BB6782700DF25DB /* Base in Resources */,
 				B49DD5E42BB6782600DF25DB /* Base in Resources */,
@@ -138,8 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49DD5E12BB6782600DF25DB /* ViewController.swift in Sources */,
+				B49DD5E12BB6782600DF25DB /* RootViewController.swift in Sources */,
+				B49DD5F32BB67F4B00DF25DB /* NewGifViwControllerViewController.swift in Sources */,
 				B49DD5DD2BB6782600DF25DB /* AppDelegate.swift in Sources */,
+				B49DD6042BB6A03F00DF25DB /* LottieViwControllerViewController.swift in Sources */,
+				B49DD5F52BB6845F00DF25DB /* UIImageView + Gif.swift in Sources */,
+				B49DD5F12BB6796E00DF25DB /* ClassicGifViwController.swift in Sources */,
 				B49DD5DF2BB6782600DF25DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +447,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B49DD5FC2BB686CF00DF25DB /* XCRemoteSwiftPackageReference "Gifu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kaishin/Gifu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.2;
+			};
+		};
+		B49DD6002BB69F7300DF25DB /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B49DD5FE2BB687B300DF25DB /* Gifu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B49DD5FC2BB686CF00DF25DB /* XCRemoteSwiftPackageReference "Gifu" */;
+			productName = Gifu;
+		};
+		B49DD6012BB69F7300DF25DB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B49DD6002BB69F7300DF25DB /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B49DD5D12BB6782600DF25DB /* Project object */;
 }

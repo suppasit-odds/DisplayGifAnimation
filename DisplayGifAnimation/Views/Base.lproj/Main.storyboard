@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a9p-Bl-aH7">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="iOL-wh-vnq">
+            <objects>
+                <navigationController id="a9p-Bl-aH7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xkP-Oq-2Ua">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="UgM-UJ-eKS" kind="relationship" relationship="rootViewController" id="2sR-sh-erK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MtU-i0-eEx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="869" y="36"/>
+        </scene>
+        <!--GiF-->
+        <scene sceneID="Tak-xs-wdd">
+            <objects>
+                <viewController id="UgM-UJ-eKS" customClass="RootViewController" customModule="DisplayGifAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ljd-oy-xBZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yok-GD-5lK">
+                                <rect key="frame" x="16" y="133" width="361" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="4pW-mM-1zk"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="UIView Extension">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="9zf-Df-EVF" kind="show" id="0E9-4K-MJm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kES-Bs-ZnP">
+                                <rect key="frame" x="16" y="204" width="361" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Okg-Gr-l7x"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Gifu">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.10977424537532933" green="0.67102033863163957" blue="0.27440439853651871" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="dQ0-nq-U0E" kind="show" id="vq2-tr-ucX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmM-ea-D3I">
+                                <rect key="frame" x="16" y="275" width="361" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="bBi-yI-yox"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Lottie">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="lWw-MC-NdF" kind="show" id="Kme-3T-82p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HVQ-tL-8Kz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kES-Bs-ZnP" firstAttribute="leading" secondItem="HVQ-tL-8Kz" secondAttribute="leading" constant="16" id="0AR-TF-5qn"/>
+                            <constraint firstItem="NmM-ea-D3I" firstAttribute="top" secondItem="kES-Bs-ZnP" secondAttribute="bottom" constant="16" id="3cb-YS-ZbQ"/>
+                            <constraint firstItem="HVQ-tL-8Kz" firstAttribute="trailing" secondItem="yok-GD-5lK" secondAttribute="trailing" constant="16" id="A1R-u4-38A"/>
+                            <constraint firstItem="HVQ-tL-8Kz" firstAttribute="trailing" secondItem="NmM-ea-D3I" secondAttribute="trailing" constant="16" id="AqO-hy-3JP"/>
+                            <constraint firstItem="kES-Bs-ZnP" firstAttribute="top" secondItem="yok-GD-5lK" secondAttribute="bottom" constant="16" id="CWy-n3-Lgi"/>
+                            <constraint firstItem="yok-GD-5lK" firstAttribute="leading" secondItem="HVQ-tL-8Kz" secondAttribute="leading" constant="16" id="NwT-aD-LQA"/>
+                            <constraint firstItem="NmM-ea-D3I" firstAttribute="centerX" secondItem="Ljd-oy-xBZ" secondAttribute="centerX" id="TWA-fR-2kz"/>
+                            <constraint firstItem="yok-GD-5lK" firstAttribute="top" secondItem="HVQ-tL-8Kz" secondAttribute="top" constant="30" id="YMj-oK-1p5"/>
+                            <constraint firstItem="NmM-ea-D3I" firstAttribute="leading" secondItem="HVQ-tL-8Kz" secondAttribute="leading" constant="16" id="uec-H4-Oyp"/>
+                            <constraint firstItem="HVQ-tL-8Kz" firstAttribute="trailing" secondItem="kES-Bs-ZnP" secondAttribute="trailing" constant="16" id="zhK-q8-hPb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="GiF" id="ESW-sC-dKk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NP4-F7-KE4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1789" y="36"/>
+        </scene>
+        <!--UIView Extension-->
+        <scene sceneID="1AN-6i-kFT">
+            <objects>
+                <viewController id="9zf-Df-EVF" customClass="ClassicGifViwController" customModule="DisplayGifAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R9b-0O-qo3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OZu-hs-Twn">
+                                <rect key="frame" x="71.666666666666686" y="123" width="250" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="A0s-CQ-qu4"/>
+                                    <constraint firstAttribute="width" constant="250" id="XCR-pg-TlY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HCc-fa-ocU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OZu-hs-Twn" firstAttribute="centerX" secondItem="R9b-0O-qo3" secondAttribute="centerX" id="JIE-cO-PJC"/>
+                            <constraint firstItem="OZu-hs-Twn" firstAttribute="top" secondItem="HCc-fa-ocU" secondAttribute="top" constant="20" id="lEo-xb-8Ac"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="UIView Extension" id="Sq5-Ri-VNR"/>
+                    <connections>
+                        <outlet property="imageView" destination="OZu-hs-Twn" id="LgW-Ek-R8J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vg0-4i-E8J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2798" y="-627"/>
+        </scene>
+        <!--Gifu-->
+        <scene sceneID="jSc-rc-iKa">
+            <objects>
+                <viewController id="dQ0-nq-U0E" customClass="NewGifViwControllerViewController" customModule="DisplayGifAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XMw-ol-WyM">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xEc-hk-EF6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Gifu" id="3wc-aE-fc6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdZ-Mf-hTw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2798" y="36"/>
+        </scene>
+        <!--Lottie Viw Controller View Controller-->
+        <scene sceneID="lPn-4j-0FQ">
+            <objects>
+                <viewController id="lWw-MC-NdF" customClass="LottieViwControllerViewController" customModule="DisplayGifAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hcQ-7R-yK4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qKa-MT-D9A"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dg7-Ma-Xlb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fP4-LQ-kyL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2798" y="772"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
